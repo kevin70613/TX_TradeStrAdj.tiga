@@ -14,6 +14,6 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 2.	Download and install RStudio IDE (recommend) from https://www.rstudio.com/. 
 3.	Can start doing experiments.
 4.	When you run program, there are some additional R packages(ex: chron, MTS,knitr, GA, genalg, .. etc) you need to install. Use command: 
-> install.packages(“ packageYouNeed ”) 
+> install.packages(“ \_packageYouNeed ”) 
 to install package.
 

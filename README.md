@@ -29,12 +29,12 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 
 **After you do above steps, all data preprocessing works are done. Then you can do three simulated trading experiments.**
 
-**Run simulated trading by Strategy 1 :** using 4EMA and KD technical indicators to construct day trading strategies.
-> Run strategyTrading_4EMA_KD.R
+> **Run simulated trading by Strategy 1 :** using 4EMA and KD technical indicators to construct day trading strategies.
+>> Run strategyTrading_4EMA_KD.R
 
-**Run simulated trading by Strategy 2 :** using 4EMA , 4MV and KD technical indicators to construct day trading strategies.
-> Run strategyTrading_4EMA_4MV_KD.R
+> **Run simulated trading by Strategy 2 :** using 4EMA , 4MV and KD technical indicators to construct day trading strategies.
+>> Run strategyTrading_4EMA_4MV_KD.R
 
-**Run simulated trading by Strategy 3 :** using GA for choosing different MV and 4EMA and KD to construct day trading strategies.
-> Run strategyTrading_GAforMV_4EMAKD.R
+> **Run simulated trading by Strategy 3 :** using GA for choosing different MV and 4EMA and KD to construct day trading strategies.
+>> Run strategyTrading_GAforMV_4EMAKD.R
 

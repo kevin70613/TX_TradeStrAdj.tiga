@@ -22,7 +22,6 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 ## Experiments
 
 Before starting simulated trading experiments, you need to do data preprocessing as following steps: 
-<\br>
 
 **Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/)
 

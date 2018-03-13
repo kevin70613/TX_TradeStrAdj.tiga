@@ -17,4 +17,24 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 4.	When you run program, there are some additional R packages(ex: chron, MTS, knitr, GA, genalg, .. etc) you need to install. Use following command to install package:
 > install.packages(“ \_packageYouNeed\_ ”) 
 
+## Experiments
+
+**Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/)
+
+**Step2.** Run getEvery1MinInfo_2013.R (in Experiment/data_preprocess_1min/).Because we provide 1 year data (2013) for doing experiment, so you only run getEvery1MinInfo_2013.R(There are different year versions in this file).
+
+**Step3.** Run getEveryDayInfo.R and workPreprocess.R (in Experiment/data_preprocess_15min/).
+
+**Step4.** Run finalPreprocessing.R (in Experiment/strategyTrading/).
+
+**After you do above steps, all data preprocessing work is done.**
+
+**Run simulated trading by Strategy 1 :** using 4EMA and KD technical indicators to construct day trading strategies.
+> Run strategyTrading_4EMA_KD.R
+
+**Run simulated trading by Strategy 2 :** using 4EMA , 4MV and KD technical indicators to construct day trading strategies.
+> Run strategyTrading_4EMA_4MV_KD.R
+
+**Run simulated trading by Strategy 3 :** using GA for choosing different MV and 4EMA and KD to construct day trading strategies.
+> Run strategyTrading_GAforMV_4EMAKD.R
 

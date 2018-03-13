@@ -27,11 +27,9 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 
 **Step3.** Run getEveryDayInfo.R and workPreprocess.R (in Experiment/data_preprocess_15min/).
 
-**Step4.** Run finalPreprocessing.R (in Experiment/strategyTrading/).
+**Step4.** Run finalPreprocessing.R (in Experiment/strategyTrading/).  
 
-<br />
-After you do above steps, all data preprocessing works are done. Then you can do three simulated trading experiments.
-<br />
+After you do above steps, all data preprocessing works are done. Then you can do three simulated trading experiments.  
 
 **Run simulated trading by Strategy 1 :** using 4EMA and KD technical indicators to construct day trading strategies.
 > Run strategyTrading_4EMA_KD.R

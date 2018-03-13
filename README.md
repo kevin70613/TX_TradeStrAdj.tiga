@@ -43,3 +43,4 @@ Before starting the simulated trading experiments, you need to do data preproces
 **Run simulated trading by Strategy 3 :** using GA for choosing different MV and 4EMA and KD to construct day trading strategies.
 > Run strategyTrading_GAforMV_4EMAKD.R
 
+## Raw result

@@ -20,7 +20,7 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 > install.packages(“ \_packageYouNeed\_ ”) 
 
 ## Experiments
-```
+
 **Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/)
 
 **Step2.** Run getEvery1MinInfo_2013.R (in Experiment/data_preprocess_1min/).Because we provide 1 year data (2013) for doing experiment, so you only run getEvery1MinInfo_2013.R(There are different year versions in this file).
@@ -28,10 +28,10 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 **Step3.** Run getEveryDayInfo.R and workPreprocess.R (in Experiment/data_preprocess_15min/).
 
 **Step4.** Run finalPreprocessing.R (in Experiment/strategyTrading/).
-```
+
 **After you do above steps, all data preprocessing works are done. Then you can do three simulated trading experiments.**
 
-```
+
 **Run simulated trading by Strategy 1 :** using 4EMA and KD technical indicators to construct day trading strategies.
 > Run strategyTrading_4EMA_KD.R
 
@@ -40,4 +40,4 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 
 **Run simulated trading by Strategy 3 :** using GA for choosing different MV and 4EMA and KD to construct day trading strategies.
 > Run strategyTrading_GAforMV_4EMAKD.R
-```
+

@@ -7,7 +7,7 @@ Source code and obtained results for “TX trading strategies adjusted by using 
 
 There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 
-1. data: there are data(1 year, not real data) for testing experiment.
+1. data: there are data(not real data) for testing experiment.
 
 2. lib: there are some functions which we programmed, you can use following command to include those function into your program.
 > source(“lib/\_program.R\_“) 
@@ -30,9 +30,13 @@ There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
 Before starting the simulated trading experiments, you need to do data preprocessing as following steps: 
 </br>
 
-**Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/)
+**Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/).
 
-**Step2.** Run getEvery1MinInfo_2013.R (in Experiment/data_preprocess_1min/).Because we provide 1 year data (2013) for doing experiment, so you only run getEvery1MinInfo_2013.R(There are different year versions in this file).
+**Step2.** Run getEvery1MinInfo_2012.R (in Experiment/data_preprocess_1min/).
+               getEvery1MinInfo_2013.R (in Experiment/data_preprocess_1min/).
+               getEvery1MinInfo_2014.R (in Experiment/data_preprocess_1min/).
+               getEvery1MinInfo_2015.R (in Experiment/data_preprocess_1min/).
+               getEvery1MinInfo_2016.R (in Experiment/data_preprocess_1min/).
 
 **Step3.** Run getEveryDayInfo.R and workPreprocess.R (in Experiment/data_preprocess_15min/).
 

@@ -51,7 +51,7 @@ Before starting the simulated trading experiments, you need to do data preproces
 
 ## Raw result
 
-In the Raw_result file, there are six information (buyDatetime, sellDatetime, predictUpDown, buyPrice, sellPrice, profit) of every futures transaction in year from year 2013 to 2016.  
+In the Raw_result file, there are six information (buyDatetime, sellDatetime, predictUpDown, buyPrice, sellPrice, profit) of every futures transaction from year 2013 to 2016.  
 
 1. buyDatetime: buy futures datetime.  
 
@@ -64,6 +64,15 @@ In the Raw_result file, there are six information (buyDatetime, sellDatetime, pr
 5. sellPrice: the selling datetime futures index.  
 
 6. profit: the sellPrice minus buyPrice.  
+
+**Note:**
+
+After you run simulated trading experiments, your R global environment have two important results: **testing_resultDetail** and **testing_resultSummary**. 
+
+**testing_resultDetail** store above six information pf every futures transaction from year 2013 to 2016.
+
+ **testing_resultSummary** store each day statistical results from year 2013 to 2016.
+
 
 
 

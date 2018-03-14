@@ -32,7 +32,9 @@ Before starting the simulated trading experiments, you need to do data preproces
 
 **Step1.** Run getEveryDayInfo.R (in Experiment/data_preprocess_1day file/).
 
-**Step2.** Run getEvery1MinInfo_2012.R (in Experiment/data_preprocess_1min/).  
+**Step2.** Run follow programs :  
+  
+             getEvery1MinInfo_2012.R (in Experiment/data_preprocess_1min/).  
 
              getEvery1MinInfo_2013.R (in Experiment/data_preprocess_1min/).  
                

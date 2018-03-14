@@ -44,3 +44,12 @@ Before starting the simulated trading experiments, you need to do data preproces
 > Run strategyTrading_GAforMV_4EMAKD.R
 
 ## Raw result
+
+In the Raw_result file, there are six information (buyDatetime, sellDatetime, predictUpDown, buyPrice, sellPrice, profit) of every futures transaction in year from year 2013 to 2016.
+1. buyDatetime: buy futures datetime. 
+2. sellDatetime: sell futures datetime.
+3. predictUpDown: the futures index will rise or fall, 1 -> rise and -1 -> fall.
+4. buyPrice: the buying datetime futures index.
+5. sellPrice: the selling datetime futures index.
+6. profit: the sellPrice minus buyPrice.
+

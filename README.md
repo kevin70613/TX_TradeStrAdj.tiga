@@ -6,10 +6,10 @@ Source code and obtained results for “TX trading strategies adjusted by using 
 ## File introduction
 
 There are three files: data, Experiment, lib in the TX_TradeStrAdj.tiga file:
-1. data: there are data(1 year, not real data) for testing experiment.
-2. lib: there are some functions which we programmed, you can use following command to include those function into your program.
+**1.** data: there are data(1 year, not real data) for testing experiment.
+**2.** lib: there are some functions which we programmed, you can use following command to include those function into your program.
 > source(“lib/\_program.R\_“) 
-3. Experiment: there are code which we do experiment.
+**3.** Experiment: there are code which we do experiment.
 
 ## Environment setting
 

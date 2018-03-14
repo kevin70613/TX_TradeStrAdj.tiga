@@ -65,7 +65,7 @@ In the Raw_result file, there are six information (buyDatetime, sellDatetime, pr
 
 6. profit: the sellPrice minus buyPrice.  
 
-**Note:**
+**[Note]**
 
 After you run simulated trading experiments, your R global environment have two important results: **testing_resultDetail** and **testing_resultSummary**. 
 
